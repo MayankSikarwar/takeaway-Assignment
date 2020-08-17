@@ -8,6 +8,8 @@ import java.util.Properties;
 public class ReadJsonData {
 	public static Properties prop;
 
+	
+	//Method to read the testData.json file
 	public static HashMap<String, String> customerDetails(int testCaseNumber) throws IOException {
 
 		// define Input Stream for the Json file
@@ -18,7 +20,7 @@ public class ReadJsonData {
 		JsonObject jsonObject = null;
 		try {
 			testCaseNumber = testCaseNumber - 1;
-			inputStream = new FileInputStream("/Users/msikarwar/eclipse-workspace/eclipseNew/Assignment/testData/testData.json");// copy the path of the testData.json from the testData folder 
+			inputStream = new FileInputStream("-update the testData.json file path here-");// copy the path of the testData.json from the testData folder 
 			jsonReader = Json.createReader(inputStream);
 			jsonObject = jsonReader.readObject();
 			JsonArray testSteps = jsonObject.getJsonArray("customerDetails");

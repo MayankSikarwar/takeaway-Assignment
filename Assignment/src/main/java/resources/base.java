@@ -15,7 +15,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 
 //This class Initializes the webdriver which is mentioned in the data properties file.
-//User need to update the path of the data properties file. 
+//User need to update the path of the data properties file.
 public class base {
 
 	public WebDriver driver;
@@ -24,7 +24,7 @@ public class base {
 	public WebDriver initializeDriver() throws IOException {
 
 		prop = new Properties();
-		String path = System.getProperty("user.dir") + "/src/main/java/resources/data.properties"; // update the path of the data property file from your directory.
+		String path = System.getProperty("user.dir") + "/src/main/java/resources/data.properties";
 		FileInputStream fis = new FileInputStream(path); 
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
@@ -33,6 +33,7 @@ public class base {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", prop.getProperty("chromDriverPath"));
 			driver = new ChromeDriver();
+			
 			// execute in chrome driver
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
@@ -51,6 +52,7 @@ public class base {
 			driver = new ChromeDriver(options);
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		return driver;
 	}
 

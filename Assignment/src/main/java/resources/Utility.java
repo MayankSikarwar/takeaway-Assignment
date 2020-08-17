@@ -14,6 +14,36 @@ import pageObjects.RestaurantListContainer;
 import pageObjects.RestaurantsHome;
 
 public class Utility {
+	
+	
+	// This class contains all the reusable methods
+	//Like 
+	//acceptCookies
+	//getTitle
+	//clickOrderButtonFromRestaurantsHome
+	//selectLocation
+	//clickSearchBox
+	//setAddress
+	//setPostCode
+	//setCity
+	//setName
+	//setEmail
+	//setPhoneNumer
+	//setCompanyName
+	//getNotificationMessage
+	//selectDeliverTime This method selects the delivery time sent from the test case. 
+	//selectPayWith
+	//selectPayWithClosestAmout
+	//clickOrderAndPayButton
+	//clickOrderAndPayButton
+	//setRemarks
+	//clickSaveRemarks
+	//setLocationInSearchBox
+	//getOrderReference
+	//getMeal
+	//calculateOrderTotal
+	//getOrderTotal
+	//getRestaurant
 
 	public WebDriver driver;
 	RestaurantsHome restaurantsHome = new RestaurantsHome(driver);
