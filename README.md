@@ -8,7 +8,7 @@ Prerequisite
 ## Download
 
 * Download Project zip and extract `takeaway-Assignment-master`.
-* Once the extraction is completed Open the folder `takeaway-Assignment-master` and copy the `Assignment` folder and paste it `user\Your_Home` folder
+* Once the extraction is completed Open the folder `takeaway-Assignment-master` and copy the `Assignment` folder and paste it in your `user\Your_Home` folder
 
 
 ### Note: Configure webDriver and testData.json path before execution.
