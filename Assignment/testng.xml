@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Takeaway.com.Assignment.Listeners"/>
+</listeners>
+	<test name="Assignment CaseOne">
+		<classes>
+			<class name="Takeaway.com.Assignment.Case_001" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Assignment CaseTwo">
+		<classes>
+			<class name="Takeaway.com.Assignment.Case_002" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Assignment CaseThree">
+		<classes>
+			<class name="Takeaway.com.Assignment.Case_003" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Assignment CaseFour">
+		<classes>
+			<class name="Takeaway.com.Assignment.Case_004" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

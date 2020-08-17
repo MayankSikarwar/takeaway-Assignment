@@ -1,0 +1,68 @@
+{
+	"customerDetails": [
+		{
+		    "caseNumber":"1",
+			"postCode": "8888",
+			"location": "8888 Alpha",
+			"restaurantName": "Los Pollos Hermanos - Automation",
+			"mealName": "Hermanito special burrito",
+			"address": "main street 2415",
+			"completePostCode": "8888AA",
+			"city": "Enschede",
+			"name": "TestUSer",
+			"phoneNumber": "1234567890",
+			"email": "testuser@test.test",
+			"companyName": "TakeAway",
+			"remark": "Make it extra Spicy",
+			"deliveryTime": "As soon as possible"
+		},
+		{
+		    "caseNumber":"2",
+			"postCode": "8888",
+			"location": "8888 Alpha",
+			"restaurantName": "TEST Restaurant Selenium",
+			"mealName": "Salami",
+			"address": "main street 2415",
+			"completePostCode": "8888AA",
+			"city": "Enschede",
+			"name": "TestUSer",
+			"phoneNumber": "1234567890",
+			"email": "testuser@test.test",
+			"companyName": "TakeAway",
+			"remark": "Make it extra Spicy",
+			"deliveryTime": "As soon as possible"
+		},
+		{
+		    "caseNumber":"3",
+			"postCode": "8888",
+			"location": "8888 Alpha",
+			"restaurantName": "Restaurant not available",
+			"mealName": "Halve Kip Menu",
+			"address": "main street 2415",
+			"completePostCode": "8888AA",
+			"city": "Enschede",
+			"name": "TestUSer",
+			"phoneNumber": "1234567890",
+			"email": "testuser@test.test",
+			"companyName": "TakeAway",
+			"remark": "Make it extra Spicy",
+			"deliveryTime": "As soon as possible"
+		},
+		{
+		    "caseNumber":"4",
+			"postCode": "8888",
+			"location": "8888 Alpha",
+			"restaurantName": "Brenno",
+			"mealName": "Pasta Bolognese",
+			"address": "Meal not available",
+			"completePostCode": "8888AA",
+			"city": "Enschede",
+			"name": "TestUSer",
+			"phoneNumber": "1234567890",
+			"email": "testuser@test.test",
+			"companyName": "TakeAway",
+			"remark": "Make it extra Spicy",
+			"deliveryTime": "As soon as possible"
+		}
+	]
+}
