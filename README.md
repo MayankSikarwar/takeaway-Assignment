@@ -8,16 +8,19 @@ Prerequisite
 ## Download
 
 * Download Project zip and extract `takeaway-Assignment-master`.
-* Once the extraction is completed Open the folder `takeaway-Assignment-master` and copy the `Assignment` folder and paste it in your `user\Your_Home` folder
+* Once the extraction is completed Open the folder `takeaway-Assignment-master` and copy the `Assignment` folder and paste it `user\Your_Home` folder
+
+## Notes for Windows and Mac
+
+* For Windows for directory path use double back slash `C:\\Users\\Your_User\\Assignment`
+* For Mac for directory path use single forward slash `/Users/Your_User/Assignment`
 
 
-### Note: Configure webDriver and testData.json path before execution.
+## Configure webDriver and testData.json path before execution.
 
 ## Configure webDriver
 
-* Update the chromeDriver path located inside folder `Assignment/browsers` in the data.properties file which is located inside 
-  `/src/main/java/resources/data.properties.`
-
+* Copy the chromeDriver executable file path (path:`Assignment/browsers`) and paste it in the data.properties file (path:`Assignment/src/main/java/resources/data.properties`).
 
 * You can choose on which browser you have to run your test cases from the data.properties file.
  For example: 
@@ -29,8 +32,8 @@ Prerequisite
 
 ## Configure Test Data file
 
- * Update the testData.json path located inside folder `/Assignment/testData/` in the ReadJsonData.java file which is located in the 
-      `src/main/java/resources/ReadJsonData.java`
+ * Copy the testData.json file path (path:`/Assignment/testData/`) and paste it in the ReadJsonData.java file which is located in the 
+      `/Assignment/src/main/java/resources/ReadJsonData.java`
  * All the test cases are taking data from the testData.json file.  
 
 ### Example Test Data
@@ -57,11 +60,6 @@ Prerequisite
 }
 
 ```
-
-## Notes for Windows and Mac
-
-* For windows use double back slash `C:\\Users\\Your_User\\Assignment`
-* For Mac use single forward slash `/Users/Your_User/Assignment`
 
 ## Project is ready to run. Execute following commands and Enjoy
  * Go to project path in terminal. For example: `/Users/(your username)/Assignment`
