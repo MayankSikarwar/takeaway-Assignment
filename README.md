@@ -26,7 +26,7 @@ Note: Configure webdriver and testData.json path before execution..
 
 ### Example Test Data
 ```json
-{
+
 	"customerDetails": [
 		{
 		    "caseNumber":"1",
@@ -44,7 +44,8 @@ Note: Configure webdriver and testData.json path before execution..
 			"remark": "Make it extra Spicy",
 			"deliveryTime": "As soon as possible"
 		}
-}
+
+
 ```
 
 ## Project is ready to run. Execute following commands and Enjoy
