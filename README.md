@@ -1,16 +1,23 @@
-# How to run the Test
+# How to Download and Run the Tests
 
 Prerequisite
 
 1. Java environment
-2. Maven
+2. Maven (Version recommended : [Maven 3.6.3](https://maven.apache.org/download.cgi) )
 
-Note: Configure webDriver and testData.json path before execution..
+## Download
+
+* Download Project zip and extract `takeaway-Assignment-master`.
+* Once the extraction is completed Open the folder `takeaway-Assignment-master` and copy the `Assignment` folder and paste it `user\Your_Home` folder
+
+
+### Note: Configure webDriver and testData.json path before execution.
 
 ## Configure webDriver
 
 * Update the chromeDriver path located inside folder `Assignment/browsers` in the data.properties file which is located inside 
   `/src/main/java/resources/data.properties.`
+
 
 * You can choose on which browser you have to run your test cases from the data.properties file.
  For example: 
@@ -50,6 +57,11 @@ Note: Configure webDriver and testData.json path before execution..
 }
 
 ```
+
+## Notes for Windows and Mac
+
+* For windows use double back slash `C:\\Users\\Your_User\\Assignment`
+* For Mac use single forward slash `/Users/Your_User/Assignment`
 
 ## Project is ready to run. Execute following commands and Enjoy
  * Go to project path in terminal. For example: `/Users/(your username)/Assignment`
