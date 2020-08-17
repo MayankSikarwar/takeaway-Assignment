@@ -12,8 +12,8 @@ Prerequisite
 
 ## Notes for Windows and Mac
 
-* For Windows for directory path use double back slash `C:\\Users\\Your_User\\Assignment`
-* For Mac for directory path use single forward slash `/Users/Your_User/Assignment`
+* For Windows use double back slash `C:\\Users\\Your_User\\Assignment` for directory path
+* For Mac use single forward slash `/Users/Your_User/Assignment` for directory path
 
 
 ## Configure webDriver and testData.json path before execution.
