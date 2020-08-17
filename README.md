@@ -5,9 +5,9 @@ Prerequisite
 1. Java environment
 2. Maven
 
-Note: Configure webdriver and testData.json path before execution..
+Note: Configure webDriver and testData.json path before execution..
 
-## Configure WebDriver
+## Configure webDriver
 
 * Update the chromeDriver path located inside folder `Assignment/browsers` in the data.properties file which is located inside 
   `/src/main/java/resources/data.properties.`
@@ -22,7 +22,7 @@ Note: Configure webdriver and testData.json path before execution..
 
 ## Configure Test Data file
 
- * Update the testData.json path in the ReadJsonData.java file which is located in the 
+ * Update the testData.json path located inside folder `/Assignment/testData/` in the ReadJsonData.java file which is located in the 
       `src/main/java/resources/ReadJsonData.java`
  * All the test cases are taking data from the testData.json file.  
 
