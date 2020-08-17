@@ -1,5 +1,7 @@
 # How to run the Test
 
+Prerequisite
+
 1. Java environment
 2. Maven
 
@@ -44,7 +46,7 @@ Note: Configure webdriver and testData.json path before execution..
 			"remark": "Make it extra Spicy",
 			"deliveryTime": "As soon as possible"
 		}
-	]
+]
 }
 
 ```
@@ -61,3 +63,5 @@ Note: Configure webdriver and testData.json path before execution..
 
 
 You can find the test result in `Assignment/reports/index.html`
+
+
