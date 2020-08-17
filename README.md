@@ -9,7 +9,7 @@ Note: Configure webdriver and testData.json path before execution..
 
 ## Configure WebDriver
 
-* Update the chromeDriver path in the data.properties file which is located inside 
+* Update the chromeDriver path located inside folder `Assignment/browsers` in the data.properties file which is located inside 
   `/src/main/java/resources/data.properties.`
 
 * You can choose on which browser you have to run your test cases from the data.properties file.
