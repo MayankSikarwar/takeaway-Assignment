@@ -8,7 +8,7 @@ Note: Configure webdriver and testData.json path before execution..
 ## Configure WebDriver
 
 * Update the chromeDriver path in the data.properties file which is located inside 
-  #### /src/main/java/resources/data.properties.
+  `/src/main/java/resources/data.properties.`
 
 * You can choose on which browser you have to run your test cases from the data.properties file.
  For example: 
@@ -21,12 +21,12 @@ Note: Configure webdriver and testData.json path before execution..
 ## Configure Test Data file
 
  * Update the testData.json path in the ReadJsonData.java file which is located in the 
-      #### src/main/java/resources/ReadJsonData.java
+      `src/main/java/resources/ReadJsonData.java`
  * All the test cases are taking data from the testData.json file.  
 
 ### Example Test Data
 ```json
-
+{
 	"customerDetails": [
 		{
 		    "caseNumber":"1",
@@ -44,25 +44,20 @@ Note: Configure webdriver and testData.json path before execution..
 			"remark": "Make it extra Spicy",
 			"deliveryTime": "As soon as possible"
 		}
-
+	]
+}
 
 ```
 
 ## Project is ready to run. Execute following commands and Enjoy
- * Go to project path in terminal. For example: 
-     #### /Users/(your username)/Assignment
+ * Go to project path in terminal. For example: `/Users/(your username)/Assignment`
 * Run the below
-Run
-```bash
-mvn clean
-```
-```bash
-mvn compile
-```
-```bash
-mvn test
-```
+
+  run `mvn clean`
+
+  run `mvn compile`
+
+  run `mvn test`
 
 
-
-
+You can find the test result in `Assignment/reports/index.html`
