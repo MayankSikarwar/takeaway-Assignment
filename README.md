@@ -32,8 +32,8 @@ Prerequisite
 
 ## Configure Test Data file
 
- * Copy the testData.json file path (path:`/Assignment/testData/`) and paste it in the ReadJsonData.java file which is located in the 
-      `/Assignment/src/main/java/resources/ReadJsonData.java`
+ * Copy the testData.json file path (path:`/Assignment/testData/`) and paste it in the ReadJsonData.java (path:`/Assignment/src/main/java/resources/ReadJsonData.java`)
+     
  * All the test cases are taking data from the testData.json file.  
 
 ### Example Test Data
@@ -72,6 +72,17 @@ Prerequisite
   run `mvn test`
 
 
+## Report
+
 You can find the test result in `Assignment/reports/index.html`
 
+Report contains Test and Dashboard tab
 
+Below are the screenshot of the Execution report
+
+
+![Test Execution ](https://github.com/MayankSikarwar/takeaway-Assignment/blob/master/Assignment/reports/reportScreenShot1.png)
+
+
+
+![Dashboard ](https://github.com/MayankSikarwar/takeaway-Assignment/blob/master/Assignment/reports/reportScreenShot2.png)
