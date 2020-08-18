@@ -76,13 +76,51 @@ Prerequisite
 
 You can find the test result in `Assignment/reports/index.html`
 
-Report contains Test and Dashboard tab
+Report contains Test and Dashboard tab 
+
+
+
 
 Below are the screenshot of the Execution report
+
+In the Test TAB , test execution details are available with the screenshot of the executed test case. 
 
 
 ![Test Execution ](https://github.com/MayankSikarwar/takeaway-Assignment/blob/master/Assignment/reports/reportScreenShot1.png)
 
-
+In the Dashboard, Overall test execution details are available.
 
 ![Dashboard ](https://github.com/MayankSikarwar/takeaway-Assignment/blob/master/Assignment/reports/reportScreenShot2.png)
+
+
+## Test Cases
+
+The Assignment test cases are located inside the `Assignment/src/test/java/Takeaway/com/Assignment`
+
+There are total 4 test cases
+
+* Case_001 : User creates an order and pay with the closest available amount. 
+
+             Note: For example if the order total is € 11.3 and if € 11.4 is available in 
+             the list then the script selects € 11.4. additionally If we want to select 
+             the nearest integer instead of decimal number then we can easily enhance 
+             this method to do the same. 
+ 
+
+
+
+* Case_002 : User creates an order and gets the Order Reference Number. 
+             
+             Note : After the execution is completed the order reference is stored in the 
+             log file with name as `prints-today's.xml` date which is located inside the logs 
+             folder. 
+* Case_003 : User searches for an restaurant which is not available at his/her location.
+             
+             Note : The test script searches for a restaurant and validates that the reset 
+             button is displayed if the requested restaurant is not available.
+
+* Case_004 : User searches for an meal which is not available at the selected restaurant. 
+             
+
+             Note : The test script searches for a meal and validates that the reset button 
+             is displayed if the requested meal is not available.
